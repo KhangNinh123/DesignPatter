@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15" version="29.6.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15" version="29.6.0" pages="2">
   <diagram name="Trang-1" id="MXJDhCFh3jBLUQzLc_Pt">
-    <mxGraphModel dx="1172" dy="1063" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="953" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -103,6 +103,65 @@
         </mxCell>
         <mxCell id="qwU1DEfl0XfgkmTLbsFF-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="thêm dữ liệu drop down" vertex="1">
           <mxGeometry height="60" width="150" x="370" y="630" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NE16H8X4plUWaUdA5OJ3" name="Trang-2">
+    <mxGraphModel dx="1589" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oTxt1Zx4o9ndu-XuIAI4-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Bắt đầu" vertex="1">
+          <mxGeometry height="50" width="100" x="-30" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oTxt1Zx4o9ndu-XuIAI4-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="User truy cập website" vertex="1">
+          <mxGeometry height="50" width="180" x="170" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oTxt1Zx4o9ndu-XuIAI4-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="User xem danh sách sản phẩm" vertex="1">
+          <mxGeometry height="50" width="180" x="430" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oTxt1Zx4o9ndu-XuIAI4-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="User chọn một sản phẩm" vertex="1">
+          <mxGeometry height="50" width="180" x="430" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="oTxt1Zx4o9ndu-XuIAI4-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Frontend gửi request lấy thông số sản phẩm" vertex="1">
+          <mxGeometry height="50" width="220" x="180" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="oTxt1Zx4o9ndu-XuIAI4-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Backend trả về danh sách thông số" vertex="1">
+          <mxGeometry height="50" width="220" x="-60" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="oTxt1Zx4o9ndu-XuIAI4-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Frontend hiển thị form nhập thông số động" vertex="1">
+          <mxGeometry height="50" width="220" x="-60" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="oTxt1Zx4o9ndu-XuIAI4-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="User chọn các thông số cần thiết" vertex="1">
+          <mxGeometry height="50" width="220" x="180" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="oTxt1Zx4o9ndu-XuIAI4-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Kết thúc" vertex="1">
+          <mxGeometry height="50" width="120" x="470" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="oTxt1Zx4o9ndu-XuIAI4-10" edge="1" parent="1" source="oTxt1Zx4o9ndu-XuIAI4-1" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;html=1;" target="oTxt1Zx4o9ndu-XuIAI4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oTxt1Zx4o9ndu-XuIAI4-11" edge="1" parent="1" source="oTxt1Zx4o9ndu-XuIAI4-2" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;html=1;" target="oTxt1Zx4o9ndu-XuIAI4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oTxt1Zx4o9ndu-XuIAI4-12" edge="1" parent="1" source="oTxt1Zx4o9ndu-XuIAI4-3" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;html=1;" target="oTxt1Zx4o9ndu-XuIAI4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oTxt1Zx4o9ndu-XuIAI4-13" edge="1" parent="1" source="oTxt1Zx4o9ndu-XuIAI4-4" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;html=1;" target="oTxt1Zx4o9ndu-XuIAI4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oTxt1Zx4o9ndu-XuIAI4-14" edge="1" parent="1" source="oTxt1Zx4o9ndu-XuIAI4-5" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;html=1;" target="oTxt1Zx4o9ndu-XuIAI4-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oTxt1Zx4o9ndu-XuIAI4-15" edge="1" parent="1" source="oTxt1Zx4o9ndu-XuIAI4-6" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;html=1;" target="oTxt1Zx4o9ndu-XuIAI4-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oTxt1Zx4o9ndu-XuIAI4-16" edge="1" parent="1" source="oTxt1Zx4o9ndu-XuIAI4-7" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;html=1;" target="oTxt1Zx4o9ndu-XuIAI4-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oTxt1Zx4o9ndu-XuIAI4-17" edge="1" parent="1" source="oTxt1Zx4o9ndu-XuIAI4-8" style="edgeStyle=orthogonalEdgeStyle;endArrow=classic;html=1;" target="oTxt1Zx4o9ndu-XuIAI4-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
